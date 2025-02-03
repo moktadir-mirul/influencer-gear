@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
+    transition: 0.4s;
     /* font-family: "Inter", serif; */
 }
 
@@ -27,16 +28,20 @@
     font-size: 16px;
     font-weight: 600;
 }
+.nav-links {
+    display: flex;
+}
+.nav-link {
+    list-style: none;
+}
 .nav-name{
     color: rgb(58, 58, 58);
     font-size: 24px;
     font-weight: 700;
-    transition: 0.4s;
 }
-.nav-name:hover {
-    transform: scale(1.5);
+.nav-link:hover {
+    transform: scale(1.2);
 }
-
 
 /* Responsive Design */
 @media screen and (max-width: 576px) {
