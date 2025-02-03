@@ -55,6 +55,7 @@
     align-items: center;
     height: 490px;
     background-image: url('../images/circle-design.svg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
@@ -90,12 +91,16 @@
 .hero-btn:hover {
     background-color: darkblue;
 }
+.hero-img{
+    width: 100%;
+}
 /* Hero area style ends */
 
 /* Responsive Design */
 @media screen and (max-width: 576px) {
+    /* Nav area for mobile */
     .nav-area {
-        width: 90vw;
+        width: 95%;
     }
     .navbar-1 {
         margin-top: 10px;
@@ -106,4 +111,30 @@
     .navbar-2 {
         display: none;
     }
+    /* mav area for mobile ends */
+
+    /* Hero area for mobile */
+    .whole-hero-area {
+        width: 95%;
+        margin: 20px auto;
+    }
+    .hero-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .hero-img-area {
+        order: 1;
+    }
+    .hero-text-area {
+        order: 2;
+        max-width: 100%;
+        text-align: center;
+    }
+    .hero-para {
+        max-width: 100%;
+    }
+    .hero-btn > i {
+        overflow: visible;
+    }
+    /* hero area for mobile ends*/
 }
