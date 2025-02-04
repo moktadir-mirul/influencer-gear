@@ -165,6 +165,25 @@
     letter-spacing: 1.8%;
     margin-bottom: 12px;
 }
+.card-btn-area {
+    margin: 30px 0px;
+    text-align: right;
+}
+.c-btn {
+    color: rgba(224, 44, 109, 0.87);
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.c-btn:hover {
+    color: red;
+    transform: scale(1.1);
+}
+.c-btn > i {
+    margin-left: 20px;
+}
 /* Card area style ends */
 
 /* Responsive Design */
