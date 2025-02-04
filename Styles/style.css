@@ -190,6 +190,7 @@
 .whole-feature-area {
     width: 85%;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 .f-container {
     display: flex;
@@ -226,6 +227,41 @@
     border: none;
 }
 /* Feature area style ends */
+
+/* Footer area style */
+.whole-footer {
+    width: 100%;
+    background-color: rgb(10, 8, 38);
+}
+.footer-texts {
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer-hd {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.f-para-1, .f-para-2 {
+    color: rgb(217, 219, 225);
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-icons {
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.fa-brands {
+    cursor: pointer;
+    margin-top: 20px;
+}
+/* Footer area style ends */
 
 /* Responsive Design */
 @media screen and (max-width: 576px) {
@@ -303,4 +339,5 @@
         align-items: center;
     }
     /* Feature area for mobile ends */
+
 }
