@@ -186,6 +186,47 @@
 }
 /* Card area style ends */
 
+/* Feature area style */
+.whole-feature-area {
+    width: 85%;
+    margin: 0 auto;
+}
+.f-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.f-hd {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.f-img {
+    object-fit: cover;
+}
+.f-para {
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 15px;
+    max-width: 70%;
+}
+.f-btn {
+    color: white;
+    background-color: rgb(224, 44, 109);
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: none;
+}
+/* Feature area style ends */
+
 /* Responsive Design */
 @media screen and (max-width: 576px) {
     /* Nav area for mobile */
@@ -236,4 +277,30 @@
         grid-template-columns: repeat(1, 1fr);
     }
     /* card area for mobile ends */
+
+    /* Feature area for mobile */
+    .whole-feature-area {
+        width: 95%;
+    }
+    .f-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+    .feature-texts {
+        text-align: center;
+    }
+    .f-img {
+        width: 100%;
+    }
+    .f-para {
+        max-width: 100%;
+    }
+    .f-btn-area {
+        margin: 5px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Feature area for mobile ends */
 }
